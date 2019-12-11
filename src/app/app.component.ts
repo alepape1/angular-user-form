@@ -4,7 +4,15 @@ import { HttpClient } from '@angular/common/http';
 // import custom validator to validate that password and confirm password fields match
 import { MustMatch } from './_helpers/must-match.validator';
 
-@Component({ selector: 'app', templateUrl: 'app.component.html' })
+
+
+
+
+@Component({
+    selector: 'app',
+    templateUrl: 'app.component.html',})
+
+
 export class AppComponent implements OnInit {
 
     SERVER_URL = "http://localhost:3000/addUsers";
